@@ -1,14 +1,15 @@
 # JS/TS Start App Bundle
 
-##Español:
+## Español
+
 Este repositorio contiene una aplicación con configuraciones para utilizar JavaScript o TypeScript, SASS, build y deployar a now.sh
 
-####Ejecución
+#### Ejecución
 
 -   npm install (instala dependencias)
 -   npm start
 
-####Contiene
+#### Contiene
 
 -   Webpack
 -   Babel (classes, spread operator, transform runtime, es6 -> es5)
@@ -16,7 +17,7 @@ Este repositorio contiene una aplicación con configuraciones para utilizar Java
 -   CSS, SASS Loader
 -   File Loader
 
-####Carpetas
+#### Carpetas
 
 -   public: contiene el build final. Apto para producción.
 -   src:
@@ -25,37 +26,41 @@ Este repositorio contiene una aplicación con configuraciones para utilizar Java
     -   static: contiene archivos estáticos como imágenes, etc.
     -   index.html: se utiliza como plantilla para insertar index.scss + index.js en tiempo de ejecución el durante el build.
 
-####Archivos
+#### Archivos
 
 -   now.json: contiguración de now.sh
 -   package.json: incluye listado de dependencias y otros.
 -   tsconfig.json: configuración para la transpilación de typescript.
 
-####Comandos
+#### Comandos
 
 -   npm start: inicia el servidor en desarrollo
 -   npm builddev: realiza el build de desarrollo
 -   npm build: realiza el build productivo
 -   npm nowbuild: utilizado por now.sh == npm build
 
-####Deployando a now.sh
+#### Deployando a now.sh
+
 Escribir en la terminal dentro de la carpeta del proyecto:
 
 -   npm i -g now (si no se encuentra instalado)
--   now
+-   now (opc --prod)
+    ![GitHub Logo](https://raw.githubusercontent.com/AgustinQuetto/js-ts-startapp-bundle/master/now-commands.png)
 
-####Utilizar únicamente Typescript:
+#### Utilizar únicamente Typescript
+
 Renombrar a .ts src/js/index.js y en webpack.config.js la línea main: "./src/js/index.js"
 Renombrar también las carpetas /js si lo desea.
 
-######Autor: Agustín Quetto
+##### Autor: Agustín Quetto
 
 ---
 
-##English:
+## English:
+
 This repository contains an application with configurations to use JavaScript or TypeScript, SASS, build and deploy to now.sh
 
-####Execution
+#### Execution
 
 -   npm install (install dependencies)
 -   npm start
@@ -95,14 +100,15 @@ This repository contains an application with configurations to use JavaScript or
 Write in the terminal inside the project folder:
 
 -   npm i -g now (if not installed)
--   now
+-   now (opt --prod)
+    ![GitHub Logo](https://raw.githubusercontent.com/AgustinQuetto/js-ts-startapp-bundle/master/now-commands.png)
 
-#### Use only Typescript:
+#### Using only Typescript
 
 Rename .ts src / js / index.js and in webpack.config.js the main line: "./src/js/index.js"
 Rename also the folders / js if you wish.
 
-###### Author: Agustín Quetto
+##### Author: Agustín Quetto
 
 Preview: [en now.sh](https://start-app-js-ts.now.sh/)
 ![GitHub Logo](https://raw.githubusercontent.com/AgustinQuetto/js-ts-startapp-bundle/master/screenshot.png)
