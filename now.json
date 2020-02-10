@@ -1,5 +1,4 @@
 {
     "version": 2,
-    "name": "start-app",
     "builds": [{ "src": "package.json", "use": "@now/static-build" }]
 }
