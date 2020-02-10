@@ -103,3 +103,6 @@ Rename .ts src / js / index.js and in webpack.config.js the main line: "./src/js
 Rename also the folders / js if you wish.
 
 ###### Author: Agustín Quetto
+
+Preview:
+![GitHub Logo](https://raw.githubusercontent.com/AgustinQuetto/js-ts-startapp-bundle/master/screenshot.png)
