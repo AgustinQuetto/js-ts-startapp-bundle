@@ -104,5 +104,5 @@ Rename also the folders / js if you wish.
 
 ###### Author: Agustín Quetto
 
-Preview:
+Preview: [en now.sh](https://start-app-js-ts.now.sh/)
 ![GitHub Logo](https://raw.githubusercontent.com/AgustinQuetto/js-ts-startapp-bundle/master/screenshot.png)
